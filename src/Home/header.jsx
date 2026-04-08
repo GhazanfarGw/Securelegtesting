@@ -16,7 +16,7 @@ function Navbar() {
   return (
     <header
       className={`fixed z-50 w-full duration-500 border-b border-opacity-30 ${
-        isScrolled ? "bg-white shadow-sm duration-500" : "bg-black duration-500 bg-opacity-25 text-[#D1E0FA] border-[#fff] border-opacity-0"
+        isScrolled ? "bg-white shadow-sm duration-500" : "bg-white"
       }`}
     >
       <div className="mx-auto max-w-7xl px-4 md:px-10 flex items-center justify-between">
